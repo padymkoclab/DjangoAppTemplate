@@ -1,10 +1,10 @@
 
 from django.utils.translation import ugettext_lazy as _
-from django.apps import AppConfig
+from django import apps
 
 
-class ERRORConfig(AppConfig):
+class AppConfig(apps.AppConfig):
 
-    name = 'apps.ERROR'
-    verbose_name = _('ERROR')
-    label = 'ERROR'
+    name = 'app'
+    verbose_name = _('App')
+    label = 'app'

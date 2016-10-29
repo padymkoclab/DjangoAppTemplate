@@ -1,9 +1,9 @@
 
 from django.conf.urls import url
 
-# from .views import
+from .views import *
 
-app_name = 'ERROR'
+app_name = ''
 
 urlpatterns = [
     # url(r'$', ArticleDetailView.as_view(), {}, ''),
